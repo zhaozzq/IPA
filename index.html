@@ -6,6 +6,7 @@
     <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <style type="text/css">
       #container {
         padding: 50px;
@@ -78,17 +79,38 @@
           );
         }
       };
+
+      class Apps extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {
+            apps:[]
+          };
+        }
+        componentDidMount() {
+          console.log("componentDidMount");
+          self = this;
+          axios("https://raw.githubusercontent.com/zhaozzq/apps/master/apps.json")
+            .then(function (response) {
+              self.setState(response.data);
+            })
+            .catch(function (error) {
+              console.log(error);
+            });
+        }
+        render () {
+          const apps = this.state.apps.map((app) =>
+            <Card key={app.name} color="#FF6663" appName={app.name} url={app.url} image={app.image}/>
+          );
+          return (
+            <div>
+              {apps}
+            </div>
+          );
+        }
+      }
       ReactDOM.render(
-        <div>
-          <Card color="#FF6663" appName="汇盈金服"
-            url="https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/manifest.plist"
-            image="https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
-          />
-          <Card color="#FF6663" appName="Octobook"
-            url="https://coding.net/u/zhaozq/p/ipa/git/raw/master/Octobook/manifest.plist"
-            image="https://coding.net/u/zhaozq/p/ipa/git/raw/master/Octobook/512.png"
-          />
-        </div>,
+        <Apps/>,
         document.querySelector("#container")
       );
     </script>
