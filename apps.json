@@ -1,0 +1,14 @@
+{
+	"apps":[
+		{
+			"name":"汇盈金服",
+			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/manifest.plist",
+			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
+		},
+		{
+			"name":"Octobook",
+			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/Octobook/manifest.plist",
+			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/Octobook/512.png"
+		}
+	]
+}
