@@ -19,6 +19,11 @@
 			"name":"博亚在线",
 			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/manifest.plist",
 			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
+		},
+		{
+			"name":"博亚在线 in house",
+			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/boya/manifest.plist",
+			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
 		}
 		
 	]
