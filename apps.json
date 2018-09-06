@@ -1,24 +1,9 @@
 {
 	"apps":[
 		{
-			"name":"汇盈金服",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
-		},
-		{
-			"name":"汇盈金服(React)",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/react-manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
-		},
-		{
-			"name":"Octobook",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/Octobook/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/Octobook/512.png"
-		},
-		{
-			"name":"博亚在线",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/boya/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/hyjf/512.png"
+			"name":"店多多",
+			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/manifest.plist",
+			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/512.png"
 		}
 	]
 }
