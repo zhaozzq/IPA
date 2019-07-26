@@ -1,24 +1,9 @@
 {
 	"apps":[
 		{
-			"name":"店多多",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/512.png"
-		},
-		{
-			"name":"店多多",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/512.png"
-		},
-		{
-			"name":"店多多",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/512.png"
-		},
-		{
-			"name":"店多多",
-			"url":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/manifest.plist",
-			"image":"https://coding.net/u/zhaozq/p/ipa/git/raw/master/ddmall/512.png"
+			"name":"iTorrent",
+			"url":"https://dev.tencent.com/u/zhaozq/p/ipa/git/raw/master/iTorrent/manifast.plist",
+			"image":"https://dev.tencent.com/u/zhaozq/p/ipa/git/raw/master/iTorrent/512.png"
 		}
 	]
 }
