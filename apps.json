@@ -2,7 +2,7 @@
 	"apps":[
 		{
 			"name":"iTorrent",
-			"url":"https://dev.tencent.com/u/zhaozq/p/ipa/git/raw/master/iTorrent/manifast.plist",
+			"url":"https://dev.tencent.com/u/zhaozq/p/ipa/git/raw/master/manifest.plist",
 			"image":"https://dev.tencent.com/u/zhaozq/p/ipa/git/raw/master/iTorrent/512.png"
 		}
 	]
